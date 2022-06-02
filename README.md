@@ -1,1 +1,1 @@
-# imu_pose_detection
+# imu_pose_estimation
