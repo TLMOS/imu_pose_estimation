@@ -1,0 +1,11 @@
+device_id: user_client
+max_session_duration: 3600
+refresh_interval: 2000
+path:
+  sessions_path: ./sessions
+mqtt:
+  ip: 195.234.208.9
+  port: '1883'
+  topic:
+    info: /general/info
+    control: /general/control

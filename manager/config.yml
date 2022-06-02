@@ -1,0 +1,37 @@
+device_id: raspberry-nano-1
+mqtt:
+  ip: 195.234.208.9
+  port: 1883
+  topic:
+    info: /general/info
+    control: /general/control
+client:
+  ip: 192.168.1.8
+  port: 8000
+sensors:
+- id: mpu6050_1
+  address: 104
+  bus: 1
+  settings:
+    clock_source: 1
+    dlpf_mode: 6
+    rate: 9
+    full_scale_accel_range: 0
+    full_scale_gyro_range: 0
+    accel_fifo_enabled: true
+    x_gyro_fifo_enabled: true
+    y_gyro_fifo_enabled: true
+    z_gyro_fifo_enabled: true
+- id: mpu6050_2
+  bus: 1
+  address: 105
+  settings:
+    clock_source: 1
+    dlpf_mode: 6
+    rate: 9
+    full_scale_accel_range: 0
+    full_scale_gyro_range: 0
+    accel_fifo_enabled: true
+    x_gyro_fifo_enabled: true
+    y_gyro_fifo_enabled: true
+    z_gyro_fifo_enabled: true
